@@ -1,0 +1,170 @@
+/* reset  */
+
+
+
+
+/* Import font */
+ @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap); 
+
+
+
+/* media queries mobile */
+
+    @media screen and (max-width:750px) {
+
+       form {
+
+       
+        width: 100%;
+     
+      
+               
+        }
+
+        input{
+                width: 100%;
+
+        }
+
+            
+    }
+    
+ 
+
+    
+
+/* pipeline */
+
+       .ref::after {
+               
+                color: black;
+                content: " | ";
+
+              }
+/*menu flexbox */
+
+body{   
+        width: 100%;
+        margin: auto;
+        font-family: 'Roboto light', sans-serif ; 
+        font-weight:300; 
+        
+}
+
+
+header{
+        display: flex;
+       
+        
+      
+
+}
+
+.logo{width: 15%;
+        margin: 10px 0;}
+
+.nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Roboto light', sans-serif ; 
+        font-weight:300; 
+        
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+li > a {
+        color: black;
+}
+
+li{
+        padding: 5px;
+}
+
+li:hover a{
+        color: red;
+}
+
+/* forùulaire flexbox */
+
+main{
+        width: 100%;
+}
+
+form    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 55px;
+}
+
+/* formulaire mise en page  */
+label {
+        margin: 16px 0 0 0;
+        padding: 6px 0;
+        font-family: 'Roboto medium', sans-serif ;
+        font-weight:500; 
+
+        
+    }
+
+    input {
+        padding: 7px;
+    }
+
+    button {
+        padding: 3px;
+        margin: 45px 0;
+    }
+/* balise hr */
+hr{
+        border-color: red;
+        width: 100%;
+
+}
+
+
+/* footer */
+/* 
+footer ul {
+        display: flex;
+
+} */
+
+footer .nav-footer {
+        display: flex;
+        flex-direction: row;
+}
+
+.nav-footer  ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+}
+
+
+span{color:red;}
+
+p{
+        text-align: center;
+        font-family: 'Roboto light', sans-serif ; 
+        font-weight:300; 
+
+}
+
+
+h1 {
+        font-family: 'Roboto medium', sans-serif ; 
+        font-weight:500;
+        
+
+}
