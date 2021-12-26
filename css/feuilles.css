@@ -10,21 +10,17 @@
 
 /* media queries mobile */
 
-    @media screen and (max-width:750px) {
+    @media screen and (max-width:700px) {
 
-       form {
-
-       
-        width: 100%;
-     
-      
-               
-        }
-
-        input{
-                width: 100%;
-
-        }
+    
+       form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        margin: auto;
+        padding-bottom: 55px;
+       }
 
             
     }
@@ -44,7 +40,7 @@
 /*menu flexbox */
 
 body{   
-        width: 100%;
+        width: 75%;
         margin: auto;
         font-family: 'Roboto light', sans-serif ; 
         font-weight:300; 
@@ -92,7 +88,7 @@ li:hover a{
         color: red;
 }
 
-/* forùulaire flexbox */
+/* formulaire flexbox */
 
 main{
         width: 100%;
