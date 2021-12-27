@@ -10,22 +10,7 @@
 
 /* media queries mobile */
 
-    @media screen and (max-width:700px) {
 
-    
-       form{
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-        justify-content: center;
-        margin: auto;
-        padding-bottom: 55px;
-       }
-
-            
-    }
-    
- 
 
     
 
@@ -50,10 +35,6 @@ body{
 
 header{
         display: flex;
-       
-        
-      
-
 }
 
 .logo{width: 15%;
@@ -80,11 +61,20 @@ li > a {
         color: black;
 }
 
+label > a {
+        color: black;
+}
+
+
 li{
         padding: 5px;
 }
 
-li:hover a{
+li:hover a {
+        color: red;
+}
+
+label:hover a  {
         color: red;
 }
 
