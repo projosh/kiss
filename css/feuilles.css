@@ -1,5 +1,4 @@
-/* reset  */
-
+body {margin: 0;}
 
 
 
@@ -7,12 +6,6 @@
  @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap); 
 
 
-
-/* media queries mobile */
-
-
-
-    
 
 /* pipeline */
 
@@ -30,6 +23,21 @@ body{
         font-family: 'Roboto light', sans-serif ; 
         font-weight:300; 
         
+}
+
+p{
+        text-align: center;
+        font-family: 'Roboto light', sans-serif ; 
+        font-weight:300; 
+
+}
+
+
+h1 {
+        font-family: 'Roboto medium', sans-serif ; 
+        font-weight:500;
+        
+
 }
 
 
@@ -93,6 +101,11 @@ form    {
         padding-bottom: 55px;
 }
 
+#checkbox {
+        display: flex;
+        flex-direction : column
+}
+
 /* formulaire mise en page  */
 label {
         margin: 16px 0 0 0;
@@ -110,6 +123,10 @@ label {
     button {
         padding: 3px;
         margin: 45px 0;
+    }
+
+    .service {
+        margin: 1rem 0;
     }
 /* balise hr */
 hr{
@@ -140,17 +157,13 @@ footer .nav-footer {
 
 span{color:red;}
 
-p{
-        text-align: center;
-        font-family: 'Roboto light', sans-serif ; 
-        font-weight:300; 
-
-}
 
 
-h1 {
-        font-family: 'Roboto medium', sans-serif ; 
-        font-weight:500;
+@media (max-width:745px) {
+
+        form{
+                
+                width: 85%        
+        }
         
-
 }

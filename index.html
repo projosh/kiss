@@ -26,7 +26,7 @@
 
             <nav>
                 <ul>
-                    <li><a href="sign-up.html">Sign-up<span class="ref"></span> </a></li>
+                    <li><a href="index.html">Sign-up<span class="ref"></span> </a></li>
                     <li><a href="sign-in.html">Sign-in</a></li>
                 </ul>
             </nav>
@@ -37,20 +37,18 @@
         <h1>Sign up</h1>
         <!--formaumlaire-->
         <form>
-            <label for="name">Name</label>
-            <input type="text">
-            <label for="E-mail">E-mail</label>
-            <input type="text">
-            <label for="password">Password</label>
-            <input type="password">
-            <label for="Confirm password">Confirm password</label>
-            <input type="password">
-            <label class="checkbox"><a href="#">I accept terms of service</a>
-            <input type="checkbox">
-            </label>
-
-            <!-- <label for="checkbox">I accept terms of service</label>
-            <input type="checkbox">  -->
+            <label for="name" aria-placeholder="name">Name</label>
+            <input type="text" placeholder="Your name">
+            <label for="E-mail" aria-placeholder="E-mail">E-mail</label>
+            <input type="text" placeholder="Your E-mail">
+            <label for="password" aria-placeholder="password">Password</label>
+            <input type="password" placeholder="Your password">
+            <label for="Confirm password" aria-placeholder="Confirm your password">Confirm password</label>
+            <input type="password" placeholder="Confirm your password">
+            <div class="service">
+            <input type="checkbox" required="checkbox">
+            <label for="checkbox"  aria-placeholder="checkbox"><a href="#">I accept terms of service</a></label>
+            </div>
             <button type="Sign in">Sign in</button>
         </form>
     </main>
